@@ -1,0 +1,84 @@
+.skillCard {
+  position: relative;
+  height: 35vh;
+  width: 13vw;
+  background: rgba(24, 21, 21, 0.15);
+  box-shadow: 0 8px 22px 0 rgba(11, 49, 2, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+}
+
+.skillCard:hover {
+  transform: scale(1);
+}
+
+.imgContainer {
+  background: black;
+  box-shadow: 0 10px 30px 8px rgba(244, 245, 250, 0.47);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  height: 50%;
+  top: 25px;
+  width: 65%;
+  padding: 10px;
+
+  justify-content: center;
+}
+
+.imgContainer img {
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+  box-shadow: 0px 0px 26px 0.1px rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 501px) {
+  .imageContainer {
+    height: 40%;
+    width: 40%;
+  }
+}
+
+.skillCard h1 {
+  margin-top: 80px;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 2px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  font-weight: 800;
+  color: #bfd4d9d3;
+}
+
+.skillCard h2 {
+  margin-top: 40px;
+  color: black;
+  font-size: 1.4rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 1000;
+  opacity: 0.4;
+  text-shadow: 0.8px 0.3px 0.3px black;
+}
+
+.skillCard h3 {
+  margin-top: 1px;
+  color: #717374d3;
+  font-size: 1.4rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  opacity: 0.7;
+  text-shadow: 0.3px 0.6px 2px white;
+}

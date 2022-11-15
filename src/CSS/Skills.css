@@ -1,0 +1,44 @@
+.skillSection {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  background-image: url("../imgs/wave.svg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-color: #fde2c4;
+  background-color: #ff2247;
+}
+
+.skillSection .waveBox {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.skillSection h1 {
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-top: 15vh;
+  color: #bfd4d9d3;
+  letter-spacing: 4px;
+  z-index: 100;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  margin-left: 110px;
+  text-shadow: 0px 3px 3px black;
+}
+
+.skillContainer {
+  margin-left: 10vw;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1.4fr 1.4fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". . . ."
+    ". . . .";
+}

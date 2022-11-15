@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@font-face {
+  font-family: "Press Start 2P", cursive;
+  src: url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100&family=Press+Start+2P&display=swap");
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100&family=Press+Start+2P&display=swap");
+}
+
+.main-banner {
+  position: relative;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  top: 80px;
+  align-items: center;
+  background-image: url("../Banner.svg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+  justify-content: space-evenly;
+  background-color: black;
+}
+
+.textDiv {
+  opacity: 0;
+}
+
+.textDiv .name {
+  font-family: "Poppins", sans-serif;
+  font-size: 3vw;
+  color: white;
+  font-weight: 300;
+}
+
+.textDiv .name span {
+  font-family: "Rowdies", cursive;
+  color: #ff2247;
+  letter-spacing: 10px;
+  font-size: 5vw;
+}
+
+.textDiv .occupation {
+  margin-top: 10px;
+  font-weight: 200;
+  font-family: "Poppins", sans-serif;
+  color: #bfd4d9d3;
+}
+
+.imageDiv {
+  margin-bottom: 105px;
+  position: relative;
+  height: 70vh;
+  width: 30vw;
+  background-size: cover;
+  border-radius: 47% 53% 68% 32% / 59% 38% 62% 41%;
+  background-position: 70%;
+  box-shadow: 0px 0px 20px 3px #bfd4d9d3;
+  transition: ease-in;
+  z-index: 100;
+}
+
+@media screen and (max-width: 601px) {
+  .imageDiv {
+    height: 40vh;
+  }
+}

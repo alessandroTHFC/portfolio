@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Megrim&family=Poppins:ital,wght@0,100;1,100&display=swap");
+@font-face {
+  font-family: "Megrim", cursive;
+  font-family: "Poppins", sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Megrim&family=Poppins:ital,wght@0,100;1,100&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+

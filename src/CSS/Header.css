@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;600;800&family=Rowdies&display=swap");
+@font-face {
+  font-family: "Poppins", sans-serif;
+  font-family: "Rowdies", cursive;
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;600;800&family=Rowdies&display=swap");
+}
+.Nav {
+  position: fixed;
+  top: 0;
+  padding: 20px;
+  width: 100%;
+  height: 50px;
+  z-index: 1;
+  opacity: 0;
+  background-color: transparent;
+  color: white;
+}
+
+.NavContents {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  top: -100%;
+  position: relative;
+  letter-spacing: 2px;
+  font-size: 1vw;
+  font-weight: 100;
+  font-family: "Poppins", sans-serif;
+}
+
+.logoName span {
+  color: #ff2247;
+  letter-spacing: 2px;
+  font-family: "Rowdies", cursive;
+}
+
+.logoName {
+  cursor: pointer;
+}
+
+.NavContentsJr {
+  display: flex;
+  margin-right: 10px;
+  width: 20%;
+  justify-content: space-around;
+  font-family: "Poppins", sans-serif;
+  color: #d4d9d3;
+  font-size: 1vw;
+}
+
+.NavContentsJr h4 {
+  margin-right: 5px;
+  font-weight: 200;
+  color: #bfd4d9d3;
+  transition: ease-in-out;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.NavContentsJr h4:hover {
+  transform: scale(2);
+  text-shadow: 0.5px 0.5px 1px #ff2247;
+}
